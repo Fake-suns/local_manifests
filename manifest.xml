@@ -6,6 +6,8 @@
 
 
   <remove-project path="hardware/qcom-caf/common" />
+  <remove-project path="hardware/qcom-caf/sm8650/audio/agm" />
+  
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="chenfeng" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
