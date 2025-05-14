@@ -4,7 +4,6 @@
   <remote fetch="https://github.com/Fake-suns" name="Fake-suns"/>
   <remote fetch="https://github.com/peridot-dev" name="peridot-dev"/>
   
-  <remove-project name="StatiXOS/android_hardware_qcom-caf_common" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="chenfeng" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
