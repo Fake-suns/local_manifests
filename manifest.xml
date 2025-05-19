@@ -4,6 +4,9 @@
   <remote fetch="https://github.com/Fake-suns" name="Fake-suns"/>
   <remote fetch="https://github.com/peridot-dev" name="peridot-dev"/>
 
+   <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
+   <project path="hardware/qcom-caf/sm8650/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" remote="Fake-suns" groups="qcom,lanai-audio" revision="lineage-22.2-caf-sm8650" clone-depth="1" />
+
   <!-- Add device tree for chenfeng -->
   <project path="device/xiaomi/chenfeng" name="device_xiaomi_chenfeng" remote="Fake-suns" revision="lineage-22.2" clone-depth="1" />
   <project path="vendor/xiaomi/chenfeng" name="vendor_xiaomi_chenfeng" remote="Fake-suns" revision="main" clone-depth="1" />
